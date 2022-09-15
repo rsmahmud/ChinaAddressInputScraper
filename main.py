@@ -1,16 +1,45 @@
-# This is a sample Python script.
+import json
+import requests
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+DATA_SET = {}
+
+adcode = 0
+PROVINCE_ENDPOINT   = f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/100000_province.json"
+CITY_ENDPOINT       = f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_city.json"
+DISTRICT_ENDPOINT   = f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_district.json"
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def get_district_list(adcode):
+    res = requests.get(f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_district.json")
+    district_list = json.loads(res.content.decode())['rows']
+    print(f"status code :{res.status_code}\tfound districts: {len(district_list)}")
+    return district_list
 
 
-# Press the green button in the gutter to run the script.
+def get_city_list(adcode):
+    res = requests.get(f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_city.json")
+    city_list = json.loads(res.content.decode())['rows']
+    print(f"status code :{res.status_code}\tfound cities: {len(city_list)}")
+    return city_list
+
+
+def get_data_set():
+    res = requests.get(f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/100000_province.json")
+    province_list = json.loads(res.content.decode())['rows']
+    # province_list = [r['name'] for r in province_list]
+    print(f"status code :{res.status_code}\tfound provinces: {len(province_list)}")
+    for province in province_list:
+        print(f"# getting cities for province: {province['name']}")
+        DATA_SET[province['name']] = {}
+        city_list = get_city_list(province['adcode'])
+        for city in city_list:
+            print(f"## getting district for city: {city['name']}")
+            DATA_SET[province['name']][city['name']] = {}
+            district_list = get_district_list(city['adcode'])
+            DATA_SET[province['name']][city['name']] = [r['name'] for r in district_list]
+
+    json.dump(DATA_SET, open('china_address_input_data_set.json', 'w'), indent=4)
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    get_data_set()

@@ -39,12 +39,12 @@ def get_data_set():
     # province_list = [r['name'] for r in province_list]
     print(f"status code :{res.status_code}\tfound provinces: {len(province_list)}")
     for i, province in enumerate(province_list):
-        print(f"# {i}. getting cities for province: {province['name']} {province['adcode']}")
+        print(f"# {i+1}. getting cities for province: {province['name']} {province['adcode']}")
         DATA_SET[province['name']] = {}
         city_list = get_city_list(province['adcode'])
 
         for j, city in enumerate(city_list):
-            print(f"## {i}.{j}. getting district for city: {city['name']} {city['adcode']}")
+            print(f"## {i+1}.{j+1}. getting district for city: {city['name']} {city['adcode']}")
             DATA_SET[province['name']][city['name']] = get_district_list(city['adcode'])
 
     json.dump(DATA_SET, open('china_address_input_data_set.json', 'w'), indent=4)

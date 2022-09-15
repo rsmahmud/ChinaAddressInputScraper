@@ -11,14 +11,24 @@ DISTRICT_ENDPOINT   = f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/are
 
 def get_district_list(adcode):
     res = requests.get(f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_district.json")
-    district_list = json.loads(res.content.decode())['rows']
+    try:
+        district_list = json.loads(res.content.decode())['rows']
+    except Exception as e:
+        print(f"Error getting district list:\nError: {e}\nData: {res.content}")
+        district_list = []
+    else:
+        district_list = [r['name'] for r in district_list]
     print(f"status code :{res.status_code}\tfound districts: {len(district_list)}")
     return district_list
 
 
 def get_city_list(adcode):
     res = requests.get(f"https://datavmap-public.oss-cn-hangzhou.aliyuncs.com/areas/csv/{adcode}_city.json")
-    city_list = json.loads(res.content.decode())['rows']
+    try:
+        city_list = json.loads(res.content.decode())['rows']
+    except Exception as e:
+        print(f"Error getting city list:\nError: {e}\nData: {res.content}")
+        city_list = []
     print(f"status code :{res.status_code}\tfound cities: {len(city_list)}")
     return city_list
 
@@ -29,14 +39,13 @@ def get_data_set():
     # province_list = [r['name'] for r in province_list]
     print(f"status code :{res.status_code}\tfound provinces: {len(province_list)}")
     for province in province_list:
-        print(f"# getting cities for province: {province['name']}")
+        print(f"# getting cities for province: {province['name']} {province['adcode']}")
         DATA_SET[province['name']] = {}
         city_list = get_city_list(province['adcode'])
+
         for city in city_list:
-            print(f"## getting district for city: {city['name']}")
-            DATA_SET[province['name']][city['name']] = {}
-            district_list = get_district_list(city['adcode'])
-            DATA_SET[province['name']][city['name']] = [r['name'] for r in district_list]
+            print(f"## getting district for city: {city['name']} {city['adcode']}")
+            DATA_SET[province['name']][city['name']] = get_district_list(city['adcode'])
 
     json.dump(DATA_SET, open('china_address_input_data_set.json', 'w'), indent=4)
 

@@ -38,13 +38,13 @@ def get_data_set():
     province_list = json.loads(res.content.decode())['rows']
     # province_list = [r['name'] for r in province_list]
     print(f"status code :{res.status_code}\tfound provinces: {len(province_list)}")
-    for province in province_list:
-        print(f"# getting cities for province: {province['name']} {province['adcode']}")
+    for i, province in enumerate(province_list):
+        print(f"# {i}. getting cities for province: {province['name']} {province['adcode']}")
         DATA_SET[province['name']] = {}
         city_list = get_city_list(province['adcode'])
 
-        for city in city_list:
-            print(f"## getting district for city: {city['name']} {city['adcode']}")
+        for j, city in enumerate(city_list):
+            print(f"## {i}.{j}. getting district for city: {city['name']} {city['adcode']}")
             DATA_SET[province['name']][city['name']] = get_district_list(city['adcode'])
 
     json.dump(DATA_SET, open('china_address_input_data_set.json', 'w'), indent=4)

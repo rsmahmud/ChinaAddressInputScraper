@@ -1,0 +1,1594 @@
+D:\Personal\PyCharm\ChinaAddressInputScraper\venv\Scripts\python.exe D:/Personal/PyCharm/ChinaAddressInputScraper/main.py 
+status code :200	found provinces: 34
+
+# 1. getting cities for province: 江西省 360000
+status code :200	found cities: 11 with adcode=360000
+
+## 1.1. getting district for city: 九江市 360400
+status code :200	found districts: 100 with adcode=360400
+## 1.1. filtered districts: 13
+
+## 1.2. getting district for city: 吉安市 360800
+status code :200	found districts: 100 with adcode=360800
+## 1.2. filtered districts: 13
+
+## 1.3. getting district for city: 抚州市 361000
+status code :200	found districts: 100 with adcode=361000
+## 1.3. filtered districts: 11
+
+## 1.4. getting district for city: 景德镇市 360200
+status code :200	found districts: 100 with adcode=360200
+## 1.4. filtered districts: 4
+
+## 1.5. getting district for city: 上饶市 361100
+status code :200	found districts: 100 with adcode=361100
+## 1.5. filtered districts: 12
+
+## 1.6. getting district for city: 新余市 360500
+status code :200	found districts: 100 with adcode=360500
+## 1.6. filtered districts: 2
+
+## 1.7. getting district for city: 鹰潭市 360600
+status code :200	found districts: 100 with adcode=360600
+## 1.7. filtered districts: 3
+
+## 1.8. getting district for city: 萍乡市 360300
+status code :200	found districts: 100 with adcode=360300
+## 1.8. filtered districts: 5
+
+## 1.9. getting district for city: 南昌市 360100
+status code :200	found districts: 100 with adcode=360100
+## 1.9. filtered districts: 9
+
+## 1.10. getting district for city: 赣州市 360700
+status code :200	found districts: 100 with adcode=360700
+## 1.10. filtered districts: 18
+
+## 1.11. getting district for city: 宜春市 360900
+status code :200	found districts: 100 with adcode=360900
+## 1.11. filtered districts: 10
+
+# 2. getting cities for province: 河南省 410000
+status code :200	found cities: 18 with adcode=410000
+
+## 2.1. getting district for city: 信阳市 411500
+status code :200	found districts: 157 with adcode=411500
+## 2.1. filtered districts: 10
+
+## 2.2. getting district for city: 三门峡市 411200
+status code :200	found districts: 157 with adcode=411200
+## 2.2. filtered districts: 6
+
+## 2.3. getting district for city: 洛阳市 410300
+status code :200	found districts: 157 with adcode=410300
+## 2.3. filtered districts: 15
+
+## 2.4. getting district for city: 焦作市 410800
+status code :200	found districts: 157 with adcode=410800
+## 2.4. filtered districts: 10
+
+## 2.5. getting district for city: 新乡市 410700
+status code :200	found districts: 157 with adcode=410700
+## 2.5. filtered districts: 12
+
+## 2.6. getting district for city: 驻马店市 411700
+status code :200	found districts: 157 with adcode=411700
+## 2.6. filtered districts: 10
+
+## 2.7. getting district for city: 南阳市 411300
+status code :200	found districts: 157 with adcode=411300
+## 2.7. filtered districts: 13
+
+## 2.8. getting district for city: 漯河市 411100
+status code :200	found districts: 157 with adcode=411100
+## 2.8. filtered districts: 5
+
+## 2.9. getting district for city: 濮阳市 410900
+status code :200	found districts: 157 with adcode=410900
+## 2.9. filtered districts: 6
+
+## 2.10. getting district for city: 安阳市 410500
+status code :200	found districts: 157 with adcode=410500
+## 2.10. filtered districts: 9
+
+## 2.11. getting district for city: 周口市 411600
+status code :200	found districts: 157 with adcode=411600
+## 2.11. filtered districts: 10
+
+## 2.12. getting district for city: 郑州市 410100
+status code :200	found districts: 157 with adcode=410100
+## 2.12. filtered districts: 12
+
+## 2.13. getting district for city: 商丘市 411400
+status code :200	found districts: 157 with adcode=411400
+## 2.13. filtered districts: 9
+
+## 2.14. getting district for city: 开封市 410200
+status code :200	found districts: 157 with adcode=410200
+## 2.14. filtered districts: 9
+
+## 2.15. getting district for city: 平顶山市 410400
+status code :200	found districts: 157 with adcode=410400
+## 2.15. filtered districts: 10
+
+## 2.16. getting district for city: 许昌市 411000
+status code :200	found districts: 157 with adcode=411000
+## 2.16. filtered districts: 6
+
+## 2.17. getting district for city: 鹤壁市 410600
+status code :200	found districts: 157 with adcode=410600
+## 2.17. filtered districts: 5
+
+## 2.18. getting district for city: 济源市 419001
+status code :200	found districts: 157 with adcode=419001
+## 2.18. filtered districts: 0
+
+# 3. getting cities for province: 四川省 510000
+status code :200	found cities: 21 with adcode=510000
+
+## 3.1. getting district for city: 雅安市 511800
+status code :200	found districts: 183 with adcode=511800
+## 3.1. filtered districts: 8
+
+## 3.2. getting district for city: 巴中市 511900
+status code :200	found districts: 183 with adcode=511900
+## 3.2. filtered districts: 5
+
+## 3.3. getting district for city: 内江市 511000
+status code :200	found districts: 183 with adcode=511000
+## 3.3. filtered districts: 5
+
+## 3.4. getting district for city: 绵阳市 510700
+status code :200	found districts: 183 with adcode=510700
+## 3.4. filtered districts: 9
+
+## 3.5. getting district for city: 乐山市 511100
+status code :200	found districts: 183 with adcode=511100
+## 3.5. filtered districts: 11
+
+## 3.6. getting district for city: 眉山市 511400
+status code :200	found districts: 183 with adcode=511400
+## 3.6. filtered districts: 6
+
+## 3.7. getting district for city: 资阳市 512000
+status code :200	found districts: 183 with adcode=512000
+## 3.7. filtered districts: 4
+
+## 3.8. getting district for city: 阿坝藏族羌族自治州 513200
+status code :200	found districts: 183 with adcode=513200
+## 3.8. filtered districts: 13
+
+## 3.9. getting district for city: 凉山彝族自治州 513400
+status code :200	found districts: 183 with adcode=513400
+## 3.9. filtered districts: 17
+
+## 3.10. getting district for city: 广安市 511600
+status code :200	found districts: 183 with adcode=511600
+## 3.10. filtered districts: 6
+
+## 3.11. getting district for city: 攀枝花市 510400
+status code :200	found districts: 183 with adcode=510400
+## 3.11. filtered districts: 5
+
+## 3.12. getting district for city: 泸州市 510500
+status code :200	found districts: 183 with adcode=510500
+## 3.12. filtered districts: 7
+
+## 3.13. getting district for city: 德阳市 510600
+status code :200	found districts: 183 with adcode=510600
+## 3.13. filtered districts: 6
+
+## 3.14. getting district for city: 广元市 510800
+status code :200	found districts: 183 with adcode=510800
+## 3.14. filtered districts: 7
+
+## 3.15. getting district for city: 自贡市 510300
+status code :200	found districts: 183 with adcode=510300
+## 3.15. filtered districts: 6
+
+## 3.16. getting district for city: 遂宁市 510900
+status code :200	found districts: 183 with adcode=510900
+## 3.16. filtered districts: 5
+
+## 3.17. getting district for city: 南充市 511300
+status code :200	found districts: 183 with adcode=511300
+## 3.17. filtered districts: 9
+
+## 3.18. getting district for city: 达州市 511700
+status code :200	found districts: 183 with adcode=511700
+## 3.18. filtered districts: 7
+
+## 3.19. getting district for city: 宜宾市 511500
+status code :200	found districts: 183 with adcode=511500
+## 3.19. filtered districts: 10
+
+## 3.20. getting district for city: 甘孜藏族自治州 513300
+status code :200	found districts: 183 with adcode=513300
+## 3.20. filtered districts: 18
+
+## 3.21. getting district for city: 成都市 510100
+status code :200	found districts: 183 with adcode=510100
+## 3.21. filtered districts: 19
+
+# 4. getting cities for province: 重庆市 500000
+status code :200	found cities: 2 with adcode=500000
+
+## 4.1. getting district for city: 重庆市郊县 500200
+status code :200	found districts: 38 with adcode=500200
+## 4.1. filtered districts: 0
+
+## 4.2. getting district for city: 重庆市市辖区 500100
+status code :200	found districts: 38 with adcode=500100
+## 4.2. filtered districts: 38
+
+# 5. getting cities for province: 西藏自治区 540000
+status code :200	found cities: 7 with adcode=540000
+
+## 5.1. getting district for city: 阿里地区 542500
+status code :200	found districts: 74 with adcode=542500
+## 5.1. filtered districts: 7
+
+## 5.2. getting district for city: 日喀则市 540200
+status code :200	found districts: 74 with adcode=540200
+## 5.2. filtered districts: 18
+
+## 5.3. getting district for city: 林芝市 540400
+Error getting district list:
+Error: Expecting value: line 1 column 1 (char 0)
+Data: b'<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n  <Code>NoSuchKey</Code>\n  <Message>The specified key does not exist.</Message>\n  <RequestId>63232C7347C6173334FBC182</RequestId>\n  <HostId>datavmap-public.oss-cn-hangzhou.aliyuncs.com</HostId>\n  <Key>areas/csv/540400_district.json</Key>\n</Error>\n'
+status code :404	found districts: 0 with adcode=540400
+## 5.3. filtered districts: 0
+
+## 5.4. getting district for city: 拉萨市 540100
+status code :200	found districts: 74 with adcode=540100
+## 5.4. filtered districts: 8
+
+## 5.5. getting district for city: 山南地区 542200
+status code :200	found districts: 74 with adcode=542200
+## 5.5. filtered districts: 12
+
+## 5.6. getting district for city: 那曲地区 542400
+status code :200	found districts: 74 with adcode=542400
+## 5.6. filtered districts: 11
+
+## 5.7. getting district for city: 昌都市 540300
+status code :200	found districts: 74 with adcode=540300
+## 5.7. filtered districts: 11
+
+# 6. getting cities for province: 贵州省 520000
+status code :200	found cities: 9 with adcode=520000
+
+## 6.1. getting district for city: 遵义市 520300
+status code :200	found districts: 88 with adcode=520300
+## 6.1. filtered districts: 14
+
+## 6.2. getting district for city: 六盘水市 520200
+status code :200	found districts: 88 with adcode=520200
+## 6.2. filtered districts: 4
+
+## 6.3. getting district for city: 黔东南苗族侗族自治州 522600
+status code :200	found districts: 88 with adcode=522600
+## 6.3. filtered districts: 16
+
+## 6.4. getting district for city: 铜仁市 520600
+status code :200	found districts: 88 with adcode=520600
+## 6.4. filtered districts: 10
+
+## 6.5. getting district for city: 黔西南布依族苗族自治州 522300
+status code :200	found districts: 88 with adcode=522300
+## 6.5. filtered districts: 8
+
+## 6.6. getting district for city: 贵阳市 520100
+status code :200	found districts: 88 with adcode=520100
+## 6.6. filtered districts: 10
+
+## 6.7. getting district for city: 黔南布依族苗族自治州 522700
+status code :200	found districts: 88 with adcode=522700
+## 6.7. filtered districts: 12
+
+## 6.8. getting district for city: 毕节市 520500
+status code :200	found districts: 88 with adcode=520500
+## 6.8. filtered districts: 8
+
+## 6.9. getting district for city: 安顺市 520400
+status code :200	found districts: 88 with adcode=520400
+## 6.9. filtered districts: 6
+
+# 7. getting cities for province: 辽宁省 210000
+status code :200	found cities: 14 with adcode=210000
+
+## 7.1. getting district for city: 抚顺市 210400
+status code :200	found districts: 100 with adcode=210400
+## 7.1. filtered districts: 7
+
+## 7.2. getting district for city: 本溪市 210500
+status code :200	found districts: 100 with adcode=210500
+## 7.2. filtered districts: 6
+
+## 7.3. getting district for city: 阜新市 210900
+status code :200	found districts: 100 with adcode=210900
+## 7.3. filtered districts: 7
+
+## 7.4. getting district for city: 锦州市 210700
+status code :200	found districts: 100 with adcode=210700
+## 7.4. filtered districts: 7
+
+## 7.5. getting district for city: 葫芦岛市 211400
+status code :200	found districts: 100 with adcode=211400
+## 7.5. filtered districts: 6
+
+## 7.6. getting district for city: 朝阳市 211300
+status code :200	found districts: 100 with adcode=211300
+## 7.6. filtered districts: 7
+
+## 7.7. getting district for city: 辽阳市 211000
+status code :200	found districts: 100 with adcode=211000
+## 7.7. filtered districts: 7
+
+## 7.8. getting district for city: 丹东市 210600
+status code :200	found districts: 100 with adcode=210600
+## 7.8. filtered districts: 6
+
+## 7.9. getting district for city: 沈阳市 210100
+status code :200	found districts: 100 with adcode=210100
+## 7.9. filtered districts: 13
+
+## 7.10. getting district for city: 大连市 210200
+status code :200	found districts: 100 with adcode=210200
+## 7.10. filtered districts: 10
+
+## 7.11. getting district for city: 鞍山市 210300
+status code :200	found districts: 100 with adcode=210300
+## 7.11. filtered districts: 7
+
+## 7.12. getting district for city: 铁岭市 211200
+status code :200	found districts: 100 with adcode=211200
+## 7.12. filtered districts: 7
+
+## 7.13. getting district for city: 盘锦市 211100
+status code :200	found districts: 100 with adcode=211100
+## 7.13. filtered districts: 4
+
+## 7.14. getting district for city: 营口市 210800
+status code :200	found districts: 100 with adcode=210800
+## 7.14. filtered districts: 6
+
+# 8. getting cities for province: 新疆维吾尔自治区 650000
+status code :200	found cities: 22 with adcode=650000
+
+## 8.1. getting district for city: 克拉玛依市 650200
+status code :200	found districts: 96 with adcode=650200
+## 8.1. filtered districts: 4
+
+## 8.2. getting district for city: 阿勒泰地区 654300
+status code :200	found districts: 96 with adcode=654300
+## 8.2. filtered districts: 7
+
+## 8.3. getting district for city: 铁门关市 659006
+status code :200	found districts: 96 with adcode=659006
+## 8.3. filtered districts: 0
+
+## 8.4. getting district for city: 石河子市 659001
+status code :200	found districts: 96 with adcode=659001
+## 8.4. filtered districts: 0
+
+## 8.5. getting district for city: 北屯市 659005
+status code :200	found districts: 96 with adcode=659005
+## 8.5. filtered districts: 0
+
+## 8.6. getting district for city: 克孜勒苏柯尔克孜自治州 653000
+status code :200	found districts: 96 with adcode=653000
+## 8.6. filtered districts: 4
+
+## 8.7. getting district for city: 乌鲁木齐市 650100
+status code :200	found districts: 96 with adcode=650100
+## 8.7. filtered districts: 8
+
+## 8.8. getting district for city: 伊犁哈萨克自治州 654000
+status code :200	found districts: 96 with adcode=654000
+## 8.8. filtered districts: 11
+
+## 8.9. getting district for city: 双河市 659007
+status code :200	found districts: 96 with adcode=659007
+## 8.9. filtered districts: 0
+
+## 8.10. getting district for city: 塔城地区 654200
+status code :200	found districts: 96 with adcode=654200
+## 8.10. filtered districts: 7
+
+## 8.11. getting district for city: 博尔塔拉蒙古自治州 652700
+status code :200	found districts: 96 with adcode=652700
+## 8.11. filtered districts: 4
+
+## 8.12. getting district for city: 喀什地区 653100
+status code :200	found districts: 96 with adcode=653100
+## 8.12. filtered districts: 12
+
+## 8.13. getting district for city: 阿克苏地区 652900
+status code :200	found districts: 96 with adcode=652900
+## 8.13. filtered districts: 9
+
+## 8.14. getting district for city: 和田地区 653200
+status code :200	found districts: 96 with adcode=653200
+## 8.14. filtered districts: 8
+
+## 8.15. getting district for city: 五家渠市 659004
+status code :200	found districts: 96 with adcode=659004
+## 8.15. filtered districts: 0
+
+## 8.16. getting district for city: 可克达拉市 659008
+Error getting district list:
+Error: Expecting value: line 1 column 1 (char 0)
+Data: b'<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n  <Code>NoSuchKey</Code>\n  <Message>The specified key does not exist.</Message>\n  <RequestId>63232CE3D9478C3737DA2988</RequestId>\n  <HostId>datavmap-public.oss-cn-hangzhou.aliyuncs.com</HostId>\n  <Key>areas/csv/659008_district.json</Key>\n</Error>\n'
+status code :404	found districts: 0 with adcode=659008
+## 8.16. filtered districts: 0
+
+## 8.17. getting district for city: 昌吉回族自治州 652300
+status code :200	found districts: 96 with adcode=652300
+## 8.17. filtered districts: 7
+
+## 8.18. getting district for city: 图木舒克市 659003
+status code :200	found districts: 96 with adcode=659003
+## 8.18. filtered districts: 0
+
+## 8.19. getting district for city: 阿拉尔市 659002
+status code :200	found districts: 96 with adcode=659002
+## 8.19. filtered districts: 0
+
+## 8.20. getting district for city: 巴音郭楞蒙古自治州 652800
+status code :200	found districts: 96 with adcode=652800
+## 8.20. filtered districts: 9
+
+## 8.21. getting district for city: 吐鲁番市 650400
+Error getting district list:
+Error: Expecting value: line 1 column 1 (char 0)
+Data: b'<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n  <Code>NoSuchKey</Code>\n  <Message>The specified key does not exist.</Message>\n  <RequestId>63232CECD8BCF03738131910</RequestId>\n  <HostId>datavmap-public.oss-cn-hangzhou.aliyuncs.com</HostId>\n  <Key>areas/csv/650400_district.json</Key>\n</Error>\n'
+status code :404	found districts: 0 with adcode=650400
+## 8.21. filtered districts: 0
+
+## 8.22. getting district for city: 哈密地区 652200
+status code :200	found districts: 96 with adcode=652200
+## 8.22. filtered districts: 3
+
+# 9. getting cities for province: 山东省 370000
+status code :200	found cities: 17 with adcode=370000
+
+## 9.1. getting district for city: 枣庄市 370400
+status code :200	found districts: 137 with adcode=370400
+## 9.1. filtered districts: 6
+
+## 9.2. getting district for city: 济南市 370100
+status code :200	found districts: 137 with adcode=370100
+## 9.2. filtered districts: 10
+
+## 9.3. getting district for city: 潍坊市 370700
+status code :200	found districts: 137 with adcode=370700
+## 9.3. filtered districts: 12
+
+## 9.4. getting district for city: 日照市 371100
+status code :200	found districts: 137 with adcode=371100
+## 9.4. filtered districts: 4
+
+## 9.5. getting district for city: 泰安市 370900
+status code :200	found districts: 137 with adcode=370900
+## 9.5. filtered districts: 6
+
+## 9.6. getting district for city: 淄博市 370300
+status code :200	found districts: 137 with adcode=370300
+## 9.6. filtered districts: 8
+
+## 9.7. getting district for city: 德州市 371400
+status code :200	found districts: 137 with adcode=371400
+## 9.7. filtered districts: 11
+
+## 9.8. getting district for city: 威海市 371000
+status code :200	found districts: 137 with adcode=371000
+## 9.8. filtered districts: 4
+
+## 9.9. getting district for city: 东营市 370500
+status code :200	found districts: 137 with adcode=370500
+## 9.9. filtered districts: 5
+
+## 9.10. getting district for city: 莱芜市 371200
+status code :200	found districts: 137 with adcode=371200
+## 9.10. filtered districts: 2
+
+## 9.11. getting district for city: 菏泽市 371700
+status code :200	found districts: 137 with adcode=371700
+## 9.11. filtered districts: 9
+
+## 9.12. getting district for city: 聊城市 371500
+status code :200	found districts: 137 with adcode=371500
+## 9.12. filtered districts: 8
+
+## 9.13. getting district for city: 济宁市 370800
+status code :200	found districts: 137 with adcode=370800
+## 9.13. filtered districts: 11
+
+## 9.14. getting district for city: 青岛市 370200
+status code :200	found districts: 137 with adcode=370200
+## 9.14. filtered districts: 10
+
+## 9.15. getting district for city: 滨州市 371600
+status code :200	found districts: 137 with adcode=371600
+## 9.15. filtered districts: 7
+
+## 9.16. getting district for city: 临沂市 371300
+status code :200	found districts: 137 with adcode=371300
+## 9.16. filtered districts: 12
+
+## 9.17. getting district for city: 烟台市 370600
+status code :200	found districts: 137 with adcode=370600
+## 9.17. filtered districts: 12
+
+# 10. getting cities for province: 上海市 310000
+status code :200	found cities: 2 with adcode=310000
+
+## 10.1. getting district for city: 上海市市辖区 310100
+status code :200	found districts: 17 with adcode=310100
+## 10.1. filtered districts: 17
+
+## 10.2. getting district for city: 上海市郊县 310200
+status code :200	found districts: 17 with adcode=310200
+## 10.2. filtered districts: 0
+
+# 11. getting cities for province: 澳門特別行政區 820000
+status code :200	found cities: 0 with adcode=820000
+
+# 12. getting cities for province: 山西省 140000
+status code :200	found cities: 11 with adcode=140000
+
+## 12.1. getting district for city: 吕梁市 141100
+status code :200	found districts: 119 with adcode=141100
+## 12.1. filtered districts: 13
+
+## 12.2. getting district for city: 运城市 140800
+status code :200	found districts: 119 with adcode=140800
+## 12.2. filtered districts: 13
+
+## 12.3. getting district for city: 朔州市 140600
+status code :200	found districts: 119 with adcode=140600
+## 12.3. filtered districts: 6
+
+## 12.4. getting district for city: 临汾市 141000
+status code :200	found districts: 119 with adcode=141000
+## 12.4. filtered districts: 17
+
+## 12.5. getting district for city: 晋城市 140500
+status code :200	found districts: 119 with adcode=140500
+## 12.5. filtered districts: 6
+
+## 12.6. getting district for city: 晋中市 140700
+status code :200	found districts: 119 with adcode=140700
+## 12.6. filtered districts: 11
+
+## 12.7. getting district for city: 忻州市 140900
+status code :200	found districts: 119 with adcode=140900
+## 12.7. filtered districts: 14
+
+## 12.8. getting district for city: 太原市 140100
+status code :200	found districts: 119 with adcode=140100
+## 12.8. filtered districts: 10
+
+## 12.9. getting district for city: 大同市 140200
+status code :200	found districts: 119 with adcode=140200
+## 12.9. filtered districts: 11
+
+## 12.10. getting district for city: 阳泉市 140300
+status code :200	found districts: 119 with adcode=140300
+## 12.10. filtered districts: 5
+
+## 12.11. getting district for city: 长治市 140400
+status code :200	found districts: 119 with adcode=140400
+## 12.11. filtered districts: 13
+
+# 13. getting cities for province: 浙江省 330000
+status code :200	found cities: 11 with adcode=330000
+
+## 13.1. getting district for city: 金华市 330700
+status code :200	found districts: 90 with adcode=330700
+## 13.1. filtered districts: 9
+
+## 13.2. getting district for city: 台州市 331000
+status code :200	found districts: 90 with adcode=331000
+## 13.2. filtered districts: 9
+
+## 13.3. getting district for city: 绍兴市 330600
+status code :200	found districts: 90 with adcode=330600
+## 13.3. filtered districts: 6
+
+## 13.4. getting district for city: 舟山市 330900
+status code :200	found districts: 90 with adcode=330900
+## 13.4. filtered districts: 4
+
+## 13.5. getting district for city: 杭州市 330100
+status code :200	found districts: 90 with adcode=330100
+## 13.5. filtered districts: 13
+
+## 13.6. getting district for city: 湖州市 330500
+status code :200	found districts: 90 with adcode=330500
+## 13.6. filtered districts: 5
+
+## 13.7. getting district for city: 衢州市 330800
+status code :200	found districts: 90 with adcode=330800
+## 13.7. filtered districts: 6
+
+## 13.8. getting district for city: 宁波市 330200
+status code :200	found districts: 90 with adcode=330200
+## 13.8. filtered districts: 11
+
+## 13.9. getting district for city: 丽水市 331100
+status code :200	found districts: 90 with adcode=331100
+## 13.9. filtered districts: 9
+
+## 13.10. getting district for city: 温州市 330300
+status code :200	found districts: 90 with adcode=330300
+## 13.10. filtered districts: 11
+
+## 13.11. getting district for city: 嘉兴市 330400
+status code :200	found districts: 90 with adcode=330400
+## 13.11. filtered districts: 7
+
+# 14. getting cities for province: 海南省 460000
+status code :200	found cities: 19 with adcode=460000
+
+## 14.1. getting district for city: 屯昌县 469022
+status code :200	found districts: 11 with adcode=469022
+## 14.1. filtered districts: 0
+
+## 14.2. getting district for city: 万宁市 469006
+status code :200	found districts: 11 with adcode=469006
+## 14.2. filtered districts: 0
+
+## 14.3. getting district for city: 三亚市 460200
+status code :200	found districts: 11 with adcode=460200
+## 14.3. filtered districts: 4
+
+## 14.4. getting district for city: 临高县 469024
+status code :200	found districts: 11 with adcode=469024
+## 14.4. filtered districts: 0
+
+## 14.5. getting district for city: 琼海市 469002
+status code :200	found districts: 11 with adcode=469002
+## 14.5. filtered districts: 0
+
+## 14.6. getting district for city: 三沙市 460300
+status code :200	found districts: 11 with adcode=460300
+## 14.6. filtered districts: 3
+
+## 14.7. getting district for city: 文昌市 469005
+status code :200	found districts: 11 with adcode=469005
+## 14.7. filtered districts: 0
+
+## 14.8. getting district for city: 乐东黎族自治县 469027
+status code :200	found districts: 11 with adcode=469027
+## 14.8. filtered districts: 0
+
+## 14.9. getting district for city: 昌江黎族自治县 469026
+status code :200	found districts: 11 with adcode=469026
+## 14.9. filtered districts: 0
+
+## 14.10. getting district for city: 儋州市 460400
+Error getting district list:
+Error: Expecting value: line 1 column 1 (char 0)
+Data: b'<?xml version="1.0" encoding="UTF-8"?>\n<Error>\n  <Code>NoSuchKey</Code>\n  <Message>The specified key does not exist.</Message>\n  <RequestId>63232D702AA34438340FB61F</RequestId>\n  <HostId>datavmap-public.oss-cn-hangzhou.aliyuncs.com</HostId>\n  <Key>areas/csv/460400_district.json</Key>\n</Error>\n'
+status code :404	found districts: 0 with adcode=460400
+## 14.10. filtered districts: 0
+
+## 14.11. getting district for city: 琼中黎族苗族自治县 469030
+status code :200	found districts: 11 with adcode=469030
+## 14.11. filtered districts: 0
+
+## 14.12. getting district for city: 澄迈县 469023
+status code :200	found districts: 11 with adcode=469023
+## 14.12. filtered districts: 0
+
+## 14.13. getting district for city: 五指山市 469001
+status code :200	found districts: 11 with adcode=469001
+## 14.13. filtered districts: 0
+
+## 14.14. getting district for city: 定安县 469021
+status code :200	found districts: 11 with adcode=469021
+## 14.14. filtered districts: 0
+
+## 14.15. getting district for city: 白沙黎族自治县 469025
+status code :200	found districts: 11 with adcode=469025
+## 14.15. filtered districts: 0
+
+## 14.16. getting district for city: 陵水黎族自治县 469028
+status code :200	found districts: 11 with adcode=469028
+## 14.16. filtered districts: 0
+
+## 14.17. getting district for city: 东方市 469007
+status code :200	found districts: 11 with adcode=469007
+## 14.17. filtered districts: 0
+
+## 14.18. getting district for city: 海口市 460100
+status code :200	found districts: 11 with adcode=460100
+## 14.18. filtered districts: 4
+
+## 14.19. getting district for city: 保亭黎族苗族自治县 469029
+status code :200	found districts: 11 with adcode=469029
+## 14.19. filtered districts: 0
+
+# 15. getting cities for province: 福建省 350000
+status code :200	found cities: 9 with adcode=350000
+
+## 15.1. getting district for city: 厦门市 350200
+status code :200	found districts: 85 with adcode=350200
+## 15.1. filtered districts: 6
+
+## 15.2. getting district for city: 漳州市 350600
+status code :200	found districts: 85 with adcode=350600
+## 15.2. filtered districts: 11
+
+## 15.3. getting district for city: 泉州市 350500
+status code :200	found districts: 85 with adcode=350500
+## 15.3. filtered districts: 12
+
+## 15.4. getting district for city: 三明市 350400
+status code :200	found districts: 85 with adcode=350400
+## 15.4. filtered districts: 12
+
+## 15.5. getting district for city: 南平市 350700
+status code :200	found districts: 85 with adcode=350700
+## 15.5. filtered districts: 10
+
+## 15.6. getting district for city: 宁德市 350900
+status code :200	found districts: 85 with adcode=350900
+## 15.6. filtered districts: 9
+
+## 15.7. getting district for city: 福州市 350100
+status code :200	found districts: 85 with adcode=350100
+## 15.7. filtered districts: 13
+
+## 15.8. getting district for city: 龙岩市 350800
+status code :200	found districts: 85 with adcode=350800
+## 15.8. filtered districts: 7
+
+## 15.9. getting district for city: 莆田市 350300
+status code :200	found districts: 85 with adcode=350300
+## 15.9. filtered districts: 5
+
+# 16. getting cities for province: 青海省 630000
+status code :200	found cities: 8 with adcode=630000
+
+## 16.1. getting district for city: 海北藏族自治州 632200
+status code :200	found districts: 44 with adcode=632200
+## 16.1. filtered districts: 4
+
+## 16.2. getting district for city: 海东市 630200
+status code :200	found districts: 44 with adcode=630200
+## 16.2. filtered districts: 6
+
+## 16.3. getting district for city: 黄南藏族自治州 632300
+status code :200	found districts: 44 with adcode=632300
+## 16.3. filtered districts: 4
+
+## 16.4. getting district for city: 海南藏族自治州 632500
+status code :200	found districts: 44 with adcode=632500
+## 16.4. filtered districts: 5
+
+## 16.5. getting district for city: 玉树藏族自治州 632700
+status code :200	found districts: 44 with adcode=632700
+## 16.5. filtered districts: 6
+
+## 16.6. getting district for city: 果洛藏族自治州 632600
+status code :200	found districts: 44 with adcode=632600
+## 16.6. filtered districts: 6
+
+## 16.7. getting district for city: 海西蒙古族藏族自治州 632800
+status code :200	found districts: 44 with adcode=632800
+## 16.7. filtered districts: 6
+
+## 16.8. getting district for city: 西宁市 630100
+status code :200	found districts: 44 with adcode=630100
+## 16.8. filtered districts: 7
+
+# 17. getting cities for province: 宁夏回族自治区 640000
+status code :200	found cities: 5 with adcode=640000
+
+## 17.1. getting district for city: 中卫市 640500
+status code :200	found districts: 22 with adcode=640500
+## 17.1. filtered districts: 3
+
+## 17.2. getting district for city: 固原市 640400
+status code :200	found districts: 22 with adcode=640400
+## 17.2. filtered districts: 5
+
+## 17.3. getting district for city: 银川市 640100
+status code :200	found districts: 22 with adcode=640100
+## 17.3. filtered districts: 6
+
+## 17.4. getting district for city: 石嘴山市 640200
+status code :200	found districts: 22 with adcode=640200
+## 17.4. filtered districts: 3
+
+## 17.5. getting district for city: 吴忠市 640300
+status code :200	found districts: 22 with adcode=640300
+## 17.5. filtered districts: 5
+
+# 18. getting cities for province: 湖北省 420000
+status code :200	found cities: 17 with adcode=420000
+
+## 18.1. getting district for city: 孝感市 420900
+status code :200	found districts: 99 with adcode=420900
+## 18.1. filtered districts: 7
+
+## 18.2. getting district for city: 十堰市 420300
+status code :200	found districts: 99 with adcode=420300
+## 18.2. filtered districts: 8
+
+## 18.3. getting district for city: 潜江市 429005
+status code :200	found districts: 99 with adcode=429005
+## 18.3. filtered districts: 0
+
+## 18.4. getting district for city: 荆门市 420800
+status code :200	found districts: 99 with adcode=420800
+## 18.4. filtered districts: 5
+
+## 18.5. getting district for city: 宜昌市 420500
+status code :200	found districts: 99 with adcode=420500
+## 18.5. filtered districts: 13
+
+## 18.6. getting district for city: 仙桃市 429004
+status code :200	found districts: 99 with adcode=429004
+## 18.6. filtered districts: 0
+
+## 18.7. getting district for city: 鄂州市 420700
+status code :200	found districts: 99 with adcode=420700
+## 18.7. filtered districts: 3
+
+## 18.8. getting district for city: 黄冈市 421100
+status code :200	found districts: 99 with adcode=421100
+## 18.8. filtered districts: 10
+
+## 18.9. getting district for city: 天门市 429006
+status code :200	found districts: 99 with adcode=429006
+## 18.9. filtered districts: 0
+
+## 18.10. getting district for city: 恩施土家族苗族自治州 422800
+status code :200	found districts: 99 with adcode=422800
+## 18.10. filtered districts: 8
+
+## 18.11. getting district for city: 黄石市 420200
+status code :200	found districts: 99 with adcode=420200
+## 18.11. filtered districts: 6
+
+## 18.12. getting district for city: 咸宁市 421200
+status code :200	found districts: 99 with adcode=421200
+## 18.12. filtered districts: 6
+
+## 18.13. getting district for city: 神农架林区 429021
+status code :200	found districts: 99 with adcode=429021
+## 18.13. filtered districts: 0
+
+## 18.14. getting district for city: 武汉市 420100
+status code :200	found districts: 99 with adcode=420100
+## 18.14. filtered districts: 13
+
+## 18.15. getting district for city: 随州市 421300
+status code :200	found districts: 99 with adcode=421300
+## 18.15. filtered districts: 3
+
+## 18.16. getting district for city: 荆州市 421000
+status code :200	found districts: 99 with adcode=421000
+## 18.16. filtered districts: 8
+
+## 18.17. getting district for city: 襄阳市 420600
+status code :200	found districts: 99 with adcode=420600
+## 18.17. filtered districts: 9
+
+# 19. getting cities for province: 甘肃省 620000
+status code :200	found cities: 14 with adcode=620000
+
+## 19.1. getting district for city: 金昌市 620300
+status code :200	found districts: 86 with adcode=620300
+## 19.1. filtered districts: 2
+
+## 19.2. getting district for city: 酒泉市 620900
+status code :200	found districts: 86 with adcode=620900
+## 19.2. filtered districts: 7
+
+## 19.3. getting district for city: 白银市 620400
+status code :200	found districts: 86 with adcode=620400
+## 19.3. filtered districts: 5
+
+## 19.4. getting district for city: 平凉市 620800
+status code :200	found districts: 86 with adcode=620800
+## 19.4. filtered districts: 7
+
+## 19.5. getting district for city: 嘉峪关市 620200
+status code :200	found districts: 86 with adcode=620200
+## 19.5. filtered districts: 0
+
+## 19.6. getting district for city: 兰州市 620100
+status code :200	found districts: 86 with adcode=620100
+## 19.6. filtered districts: 8
+
+## 19.7. getting district for city: 定西市 621100
+status code :200	found districts: 86 with adcode=621100
+## 19.7. filtered districts: 7
+
+## 19.8. getting district for city: 天水市 620500
+status code :200	found districts: 86 with adcode=620500
+## 19.8. filtered districts: 7
+
+## 19.9. getting district for city: 临夏回族自治州 622900
+status code :200	found districts: 86 with adcode=622900
+## 19.9. filtered districts: 8
+
+## 19.10. getting district for city: 张掖市 620700
+status code :200	found districts: 86 with adcode=620700
+## 19.10. filtered districts: 6
+
+## 19.11. getting district for city: 甘南藏族自治州 623000
+status code :200	found districts: 86 with adcode=623000
+## 19.11. filtered districts: 8
+
+## 19.12. getting district for city: 庆阳市 621000
+status code :200	found districts: 86 with adcode=621000
+## 19.12. filtered districts: 8
+
+## 19.13. getting district for city: 陇南市 621200
+status code :200	found districts: 86 with adcode=621200
+## 19.13. filtered districts: 9
+
+## 19.14. getting district for city: 武威市 620600
+status code :200	found districts: 86 with adcode=620600
+## 19.14. filtered districts: 4
+
+# 20. getting cities for province: 安徽省 340000
+status code :200	found cities: 16 with adcode=340000
+
+## 20.1. getting district for city: 滁州市 341100
+status code :200	found districts: 105 with adcode=341100
+## 20.1. filtered districts: 8
+
+## 20.2. getting district for city: 池州市 341700
+status code :200	found districts: 105 with adcode=341700
+## 20.2. filtered districts: 4
+
+## 20.3. getting district for city: 宿州市 341300
+status code :200	found districts: 105 with adcode=341300
+## 20.3. filtered districts: 5
+
+## 20.4. getting district for city: 马鞍山市 340500
+status code :200	found districts: 105 with adcode=340500
+## 20.4. filtered districts: 6
+
+## 20.5. getting district for city: 亳州市 341600
+status code :200	found districts: 105 with adcode=341600
+## 20.5. filtered districts: 4
+
+## 20.6. getting district for city: 阜阳市 341200
+status code :200	found districts: 105 with adcode=341200
+## 20.6. filtered districts: 8
+
+## 20.7. getting district for city: 芜湖市 340200
+status code :200	found districts: 105 with adcode=340200
+## 20.7. filtered districts: 8
+
+## 20.8. getting district for city: 铜陵市 340700
+status code :200	found districts: 105 with adcode=340700
+## 20.8. filtered districts: 4
+
+## 20.9. getting district for city: 淮北市 340600
+status code :200	found districts: 105 with adcode=340600
+## 20.9. filtered districts: 4
+
+## 20.10. getting district for city: 蚌埠市 340300
+status code :200	found districts: 105 with adcode=340300
+## 20.10. filtered districts: 7
+
+## 20.11. getting district for city: 淮南市 340400
+status code :200	found districts: 105 with adcode=340400
+## 20.11. filtered districts: 6
+
+## 20.12. getting district for city: 安庆市 340800
+status code :200	found districts: 105 with adcode=340800
+## 20.12. filtered districts: 11
+
+## 20.13. getting district for city: 宣城市 341800
+status code :200	found districts: 105 with adcode=341800
+## 20.13. filtered districts: 7
+
+## 20.14. getting district for city: 合肥市 340100
+status code :200	found districts: 105 with adcode=340100
+## 20.14. filtered districts: 9
+
+## 20.15. getting district for city: 六安市 341500
+status code :200	found districts: 105 with adcode=341500
+## 20.15. filtered districts: 7
+
+## 20.16. getting district for city: 黄山市 341000
+status code :200	found districts: 105 with adcode=341000
+## 20.16. filtered districts: 7
+
+# 21. getting cities for province: 台湾省 710000
+status code :200	found cities: 0 with adcode=710000
+
+# 22. getting cities for province: 陕西省 610000
+status code :200	found cities: 10 with adcode=610000
+
+## 22.1. getting district for city: 西安市 610100
+status code :200	found districts: 107 with adcode=610100
+## 22.1. filtered districts: 13
+
+## 22.2. getting district for city: 铜川市 610200
+status code :200	found districts: 107 with adcode=610200
+## 22.2. filtered districts: 4
+
+## 22.3. getting district for city: 咸阳市 610400
+status code :200	found districts: 107 with adcode=610400
+## 22.3. filtered districts: 14
+
+## 22.4. getting district for city: 延安市 610600
+status code :200	found districts: 107 with adcode=610600
+## 22.4. filtered districts: 13
+
+## 22.5. getting district for city: 安康市 610900
+status code :200	found districts: 107 with adcode=610900
+## 22.5. filtered districts: 10
+
+## 22.6. getting district for city: 宝鸡市 610300
+status code :200	found districts: 107 with adcode=610300
+## 22.6. filtered districts: 12
+
+## 22.7. getting district for city: 渭南市 610500
+status code :200	found districts: 107 with adcode=610500
+## 22.7. filtered districts: 11
+
+## 22.8. getting district for city: 汉中市 610700
+status code :200	found districts: 107 with adcode=610700
+## 22.8. filtered districts: 11
+
+## 22.9. getting district for city: 商洛市 611000
+status code :200	found districts: 107 with adcode=611000
+## 22.9. filtered districts: 7
+
+## 22.10. getting district for city: 榆林市 610800
+status code :200	found districts: 107 with adcode=610800
+## 22.10. filtered districts: 12
+
+# 23. getting cities for province: 广西壮族自治区 450000
+status code :200	found cities: 14 with adcode=450000
+
+## 23.1. getting district for city: 梧州市 450400
+status code :200	found districts: 110 with adcode=450400
+## 23.1. filtered districts: 7
+
+## 23.2. getting district for city: 贵港市 450800
+status code :200	found districts: 110 with adcode=450800
+## 23.2. filtered districts: 5
+
+## 23.3. getting district for city: 贺州市 451100
+status code :200	found districts: 110 with adcode=451100
+## 23.3. filtered districts: 4
+
+## 23.4. getting district for city: 桂林市 450300
+status code :200	found districts: 110 with adcode=450300
+## 23.4. filtered districts: 17
+
+## 23.5. getting district for city: 来宾市 451300
+status code :200	found districts: 110 with adcode=451300
+## 23.5. filtered districts: 6
+
+## 23.6. getting district for city: 防城港市 450600
+status code :200	found districts: 110 with adcode=450600
+## 23.6. filtered districts: 4
+
+## 23.7. getting district for city: 南宁市 450100
+status code :200	found districts: 110 with adcode=450100
+## 23.7. filtered districts: 12
+
+## 23.8. getting district for city: 北海市 450500
+status code :200	found districts: 110 with adcode=450500
+## 23.8. filtered districts: 4
+
+## 23.9. getting district for city: 钦州市 450700
+status code :200	found districts: 110 with adcode=450700
+## 23.9. filtered districts: 4
+
+## 23.10. getting district for city: 百色市 451000
+status code :200	found districts: 110 with adcode=451000
+## 23.10. filtered districts: 12
+
+## 23.11. getting district for city: 玉林市 450900
+status code :200	found districts: 110 with adcode=450900
+## 23.11. filtered districts: 7
+
+## 23.12. getting district for city: 河池市 451200
+status code :200	found districts: 110 with adcode=451200
+## 23.12. filtered districts: 11
+
+## 23.13. getting district for city: 崇左市 451400
+status code :200	found districts: 110 with adcode=451400
+## 23.13. filtered districts: 7
+
+## 23.14. getting district for city: 柳州市 450200
+status code :200	found districts: 110 with adcode=450200
+## 23.14. filtered districts: 10
+
+# 24. getting cities for province: 天津市 120000
+status code :200	found cities: 2 with adcode=120000
+
+## 24.1. getting district for city: 天津市市辖区 120100
+status code :200	found districts: 16 with adcode=120100
+## 24.1. filtered districts: 16
+
+## 24.2. getting district for city: 天津市郊县 120200
+status code :200	found districts: 16 with adcode=120200
+## 24.2. filtered districts: 0
+
+# 25. getting cities for province: 云南省 530000
+status code :200	found cities: 16 with adcode=530000
+
+## 25.1. getting district for city: 德宏傣族景颇族自治州 533100
+status code :200	found districts: 129 with adcode=533100
+## 25.1. filtered districts: 5
+
+## 25.2. getting district for city: 怒江傈僳族自治州 533300
+status code :200	found districts: 129 with adcode=533300
+## 25.2. filtered districts: 4
+
+## 25.3. getting district for city: 曲靖市 530300
+status code :200	found districts: 129 with adcode=530300
+## 25.3. filtered districts: 9
+
+## 25.4. getting district for city: 保山市 530500
+status code :200	found districts: 129 with adcode=530500
+## 25.4. filtered districts: 5
+
+## 25.5. getting district for city: 大理白族自治州 532900
+status code :200	found districts: 129 with adcode=532900
+## 25.5. filtered districts: 12
+
+## 25.6. getting district for city: 昭通市 530600
+status code :200	found districts: 129 with adcode=530600
+## 25.6. filtered districts: 11
+
+## 25.7. getting district for city: 临沧市 530900
+status code :200	found districts: 129 with adcode=530900
+## 25.7. filtered districts: 8
+
+## 25.8. getting district for city: 文山壮族苗族自治州 532600
+status code :200	found districts: 129 with adcode=532600
+## 25.8. filtered districts: 8
+
+## 25.9. getting district for city: 红河哈尼族彝族自治州 532500
+status code :200	found districts: 129 with adcode=532500
+## 25.9. filtered districts: 13
+
+## 25.10. getting district for city: 普洱市 530800
+status code :200	found districts: 129 with adcode=530800
+## 25.10. filtered districts: 10
+
+## 25.11. getting district for city: 迪庆藏族自治州 533400
+status code :200	found districts: 129 with adcode=533400
+## 25.11. filtered districts: 3
+
+## 25.12. getting district for city: 丽江市 530700
+status code :200	found districts: 129 with adcode=530700
+## 25.12. filtered districts: 5
+
+## 25.13. getting district for city: 楚雄彝族自治州 532300
+status code :200	found districts: 129 with adcode=532300
+## 25.13. filtered districts: 10
+
+## 25.14. getting district for city: 玉溪市 530400
+status code :200	found districts: 129 with adcode=530400
+## 25.14. filtered districts: 9
+
+## 25.15. getting district for city: 昆明市 530100
+status code :200	found districts: 129 with adcode=530100
+## 25.15. filtered districts: 14
+
+## 25.16. getting district for city: 西双版纳傣族自治州 532800
+status code :200	found districts: 129 with adcode=532800
+## 25.16. filtered districts: 3
+
+# 26. getting cities for province: 黑龙江省 230000
+status code :200	found cities: 13 with adcode=230000
+
+## 26.1. getting district for city: 牡丹江市 231000
+status code :200	found districts: 129 with adcode=231000
+## 26.1. filtered districts: 10
+
+## 26.2. getting district for city: 双鸭山市 230500
+status code :200	found districts: 129 with adcode=230500
+## 26.2. filtered districts: 8
+
+## 26.3. getting district for city: 佳木斯市 230800
+status code :200	found districts: 129 with adcode=230800
+## 26.3. filtered districts: 10
+
+## 26.4. getting district for city: 黑河市 231100
+status code :200	found districts: 129 with adcode=231100
+## 26.4. filtered districts: 6
+
+## 26.5. getting district for city: 齐齐哈尔市 230200
+status code :200	found districts: 129 with adcode=230200
+## 26.5. filtered districts: 16
+
+## 26.6. getting district for city: 大兴安岭地区 232700
+status code :200	found districts: 129 with adcode=232700
+## 26.6. filtered districts: 4
+
+## 26.7. getting district for city: 鸡西市 230300
+status code :200	found districts: 129 with adcode=230300
+## 26.7. filtered districts: 9
+
+## 26.8. getting district for city: 伊春市 230700
+status code :200	found districts: 129 with adcode=230700
+## 26.8. filtered districts: 17
+
+## 26.9. getting district for city: 鹤岗市 230400
+status code :200	found districts: 129 with adcode=230400
+## 26.9. filtered districts: 8
+
+## 26.10. getting district for city: 哈尔滨市 230100
+status code :200	found districts: 129 with adcode=230100
+## 26.10. filtered districts: 18
+
+## 26.11. getting district for city: 大庆市 230600
+status code :200	found districts: 129 with adcode=230600
+## 26.11. filtered districts: 9
+
+## 26.12. getting district for city: 绥化市 231200
+status code :200	found districts: 129 with adcode=231200
+## 26.12. filtered districts: 10
+
+## 26.13. getting district for city: 七台河市 230900
+status code :200	found districts: 129 with adcode=230900
+## 26.13. filtered districts: 4
+
+# 27. getting cities for province: 广东省 440000
+status code :200	found cities: 21 with adcode=440000
+
+## 27.1. getting district for city: 汕尾市 441500
+status code :200	found districts: 119 with adcode=441500
+## 27.1. filtered districts: 4
+
+## 27.2. getting district for city: 广州市 440100
+status code :200	found districts: 119 with adcode=440100
+## 27.2. filtered districts: 11
+
+## 27.3. getting district for city: 江门市 440700
+status code :200	found districts: 119 with adcode=440700
+## 27.3. filtered districts: 7
+
+## 27.4. getting district for city: 肇庆市 441200
+status code :200	found districts: 119 with adcode=441200
+## 27.4. filtered districts: 8
+
+## 27.5. getting district for city: 韶关市 440200
+status code :200	found districts: 119 with adcode=440200
+## 27.5. filtered districts: 10
+
+## 27.6. getting district for city: 阳江市 441700
+status code :200	found districts: 119 with adcode=441700
+## 27.6. filtered districts: 4
+
+## 27.7. getting district for city: 湛江市 440800
+status code :200	found districts: 119 with adcode=440800
+## 27.7. filtered districts: 9
+
+## 27.8. getting district for city: 中山市 442000
+status code :200	found districts: 119 with adcode=442000
+## 27.8. filtered districts: 0
+
+## 27.9. getting district for city: 梅州市 441400
+status code :200	found districts: 119 with adcode=441400
+## 27.9. filtered districts: 8
+
+## 27.10. getting district for city: 深圳市 440300
+status code :200	found districts: 119 with adcode=440300
+## 27.10. filtered districts: 6
+
+## 27.11. getting district for city: 汕头市 440500
+status code :200	found districts: 119 with adcode=440500
+## 27.11. filtered districts: 7
+
+## 27.12. getting district for city: 珠海市 440400
+status code :200	found districts: 119 with adcode=440400
+## 27.12. filtered districts: 3
+
+## 27.13. getting district for city: 河源市 441600
+status code :200	found districts: 119 with adcode=441600
+## 27.13. filtered districts: 6
+
+## 27.14. getting district for city: 东莞市 441900
+status code :200	found districts: 119 with adcode=441900
+## 27.14. filtered districts: 0
+
+## 27.15. getting district for city: 云浮市 445300
+status code :200	found districts: 119 with adcode=445300
+## 27.15. filtered districts: 5
+
+## 27.16. getting district for city: 佛山市 440600
+status code :200	found districts: 119 with adcode=440600
+## 27.16. filtered districts: 5
+
+## 27.17. getting district for city: 潮州市 445100
+status code :200	found districts: 119 with adcode=445100
+## 27.17. filtered districts: 3
+
+## 27.18. getting district for city: 揭阳市 445200
+status code :200	found districts: 119 with adcode=445200
+## 27.18. filtered districts: 5
+
+## 27.19. getting district for city: 茂名市 440900
+status code :200	found districts: 119 with adcode=440900
+## 27.19. filtered districts: 5
+
+## 27.20. getting district for city: 清远市 441800
+status code :200	found districts: 119 with adcode=441800
+## 27.20. filtered districts: 8
+
+## 27.21. getting district for city: 惠州市 441300
+status code :200	found districts: 119 with adcode=441300
+## 27.21. filtered districts: 5
+
+# 28. getting cities for province: 湖南省 430000
+status code :200	found cities: 14 with adcode=430000
+
+## 28.1. getting district for city: 岳阳市 430600
+status code :200	found districts: 122 with adcode=430600
+## 28.1. filtered districts: 9
+
+## 28.2. getting district for city: 衡阳市 430400
+status code :200	found districts: 122 with adcode=430400
+## 28.2. filtered districts: 12
+
+## 28.3. getting district for city: 长沙市 430100
+status code :200	found districts: 122 with adcode=430100
+## 28.3. filtered districts: 9
+
+## 28.4. getting district for city: 常德市 430700
+status code :200	found districts: 122 with adcode=430700
+## 28.4. filtered districts: 9
+
+## 28.5. getting district for city: 湘西土家族苗族自治州 433100
+status code :200	found districts: 122 with adcode=433100
+## 28.5. filtered districts: 8
+
+## 28.6. getting district for city: 湘潭市 430300
+status code :200	found districts: 122 with adcode=430300
+## 28.6. filtered districts: 5
+
+## 28.7. getting district for city: 益阳市 430900
+status code :200	found districts: 122 with adcode=430900
+## 28.7. filtered districts: 6
+
+## 28.8. getting district for city: 邵阳市 430500
+status code :200	found districts: 122 with adcode=430500
+## 28.8. filtered districts: 12
+
+## 28.9. getting district for city: 株洲市 430200
+status code :200	found districts: 122 with adcode=430200
+## 28.9. filtered districts: 9
+
+## 28.10. getting district for city: 怀化市 431200
+status code :200	found districts: 122 with adcode=431200
+## 28.10. filtered districts: 12
+
+## 28.11. getting district for city: 张家界市 430800
+status code :200	found districts: 122 with adcode=430800
+## 28.11. filtered districts: 4
+
+## 28.12. getting district for city: 永州市 431100
+status code :200	found districts: 122 with adcode=431100
+## 28.12. filtered districts: 11
+
+## 28.13. getting district for city: 娄底市 431300
+status code :200	found districts: 122 with adcode=431300
+## 28.13. filtered districts: 5
+
+## 28.14. getting district for city: 郴州市 431000
+status code :200	found districts: 122 with adcode=431000
+## 28.14. filtered districts: 11
+
+# 29. getting cities for province: 河北省 130000
+status code :200	found cities: 11 with adcode=130000
+
+## 29.1. getting district for city: 石家庄市 130100
+status code :200	found districts: 170 with adcode=130100
+## 29.1. filtered districts: 22
+
+## 29.2. getting district for city: 承德市 130800
+status code :200	found districts: 170 with adcode=130800
+## 29.2. filtered districts: 11
+
+## 29.3. getting district for city: 沧州市 130900
+status code :200	found districts: 170 with adcode=130900
+## 29.3. filtered districts: 16
+
+## 29.4. getting district for city: 唐山市 130200
+status code :200	found districts: 170 with adcode=130200
+## 29.4. filtered districts: 14
+
+## 29.5. getting district for city: 邢台市 130500
+status code :200	found districts: 170 with adcode=130500
+## 29.5. filtered districts: 19
+
+## 29.6. getting district for city: 邯郸市 130400
+status code :200	found districts: 170 with adcode=130400
+## 29.6. filtered districts: 19
+
+## 29.7. getting district for city: 廊坊市 131000
+status code :200	found districts: 170 with adcode=131000
+## 29.7. filtered districts: 10
+
+## 29.8. getting district for city: 衡水市 131100
+status code :200	found districts: 170 with adcode=131100
+## 29.8. filtered districts: 11
+
+## 29.9. getting district for city: 保定市 130600
+status code :200	found districts: 170 with adcode=130600
+## 29.9. filtered districts: 24
+
+## 29.10. getting district for city: 秦皇岛市 130300
+status code :200	found districts: 170 with adcode=130300
+## 29.10. filtered districts: 7
+
+## 29.11. getting district for city: 张家口市 130700
+status code :200	found districts: 170 with adcode=130700
+## 29.11. filtered districts: 17
+
+# 30. getting cities for province: 内蒙古自治区 150000
+status code :200	found cities: 12 with adcode=150000
+
+## 30.1. getting district for city: 呼和浩特市 150100
+status code :200	found districts: 102 with adcode=150100
+## 30.1. filtered districts: 9
+
+## 30.2. getting district for city: 呼伦贝尔市 150700
+status code :200	found districts: 102 with adcode=150700
+## 30.2. filtered districts: 14
+
+## 30.3. getting district for city: 锡林郭勒盟 152500
+status code :200	found districts: 102 with adcode=152500
+## 30.3. filtered districts: 12
+
+## 30.4. getting district for city: 兴安盟 152200
+status code :200	found districts: 102 with adcode=152200
+## 30.4. filtered districts: 6
+
+## 30.5. getting district for city: 阿拉善盟 152900
+status code :200	found districts: 102 with adcode=152900
+## 30.5. filtered districts: 3
+
+## 30.6. getting district for city: 鄂尔多斯市 150600
+status code :200	found districts: 102 with adcode=150600
+## 30.6. filtered districts: 8
+
+## 30.7. getting district for city: 乌兰察布市 150900
+status code :200	found districts: 102 with adcode=150900
+## 30.7. filtered districts: 11
+
+## 30.8. getting district for city: 包头市 150200
+status code :200	found districts: 102 with adcode=150200
+## 30.8. filtered districts: 9
+
+## 30.9. getting district for city: 赤峰市 150400
+status code :200	found districts: 102 with adcode=150400
+## 30.9. filtered districts: 12
+
+## 30.10. getting district for city: 乌海市 150300
+status code :200	found districts: 102 with adcode=150300
+## 30.10. filtered districts: 3
+
+## 30.11. getting district for city: 巴彦淖尔市 150800
+status code :200	found districts: 102 with adcode=150800
+## 30.11. filtered districts: 7
+
+## 30.12. getting district for city: 通辽市 150500
+status code :200	found districts: 102 with adcode=150500
+## 30.12. filtered districts: 8
+
+# 31. getting cities for province: 吉林省 220000
+status code :200	found cities: 9 with adcode=220000
+
+## 31.1. getting district for city: 辽源市 220400
+status code :200	found districts: 60 with adcode=220400
+## 31.1. filtered districts: 4
+
+## 31.2. getting district for city: 吉林市 220200
+status code :200	found districts: 60 with adcode=220200
+## 31.2. filtered districts: 9
+
+## 31.3. getting district for city: 通化市 220500
+status code :200	found districts: 60 with adcode=220500
+## 31.3. filtered districts: 7
+
+## 31.4. getting district for city: 四平市 220300
+status code :200	found districts: 60 with adcode=220300
+## 31.4. filtered districts: 6
+
+## 31.5. getting district for city: 松原市 220700
+status code :200	found districts: 60 with adcode=220700
+## 31.5. filtered districts: 5
+
+## 31.6. getting district for city: 白城市 220800
+status code :200	found districts: 60 with adcode=220800
+## 31.6. filtered districts: 5
+
+## 31.7. getting district for city: 延边朝鲜族自治州 222400
+status code :200	found districts: 60 with adcode=222400
+## 31.7. filtered districts: 8
+
+## 31.8. getting district for city: 白山市 220600
+status code :200	found districts: 60 with adcode=220600
+## 31.8. filtered districts: 6
+
+## 31.9. getting district for city: 长春市 220100
+status code :200	found districts: 60 with adcode=220100
+## 31.9. filtered districts: 10
+
+# 32. getting cities for province: 江苏省 320000
+status code :200	found cities: 13 with adcode=320000
+
+## 32.1. getting district for city: 镇江市 321100
+status code :200	found districts: 98 with adcode=321100
+## 32.1. filtered districts: 6
+
+## 32.2. getting district for city: 苏州市 320500
+status code :200	found districts: 98 with adcode=320500
+## 32.2. filtered districts: 9
+
+## 32.3. getting district for city: 宿迁市 321300
+status code :200	found districts: 98 with adcode=321300
+## 32.3. filtered districts: 5
+
+## 32.4. getting district for city: 泰州市 321200
+status code :200	found districts: 98 with adcode=321200
+## 32.4. filtered districts: 6
+
+## 32.5. getting district for city: 淮安市 320800
+status code :200	found districts: 98 with adcode=320800
+## 32.5. filtered districts: 8
+
+## 32.6. getting district for city: 盐城市 320900
+status code :200	found districts: 98 with adcode=320900
+## 32.6. filtered districts: 9
+
+## 32.7. getting district for city: 连云港市 320700
+status code :200	found districts: 98 with adcode=320700
+## 32.7. filtered districts: 6
+
+## 32.8. getting district for city: 徐州市 320300
+status code :200	found districts: 98 with adcode=320300
+## 32.8. filtered districts: 10
+
+## 32.9. getting district for city: 南京市 320100
+status code :200	found districts: 98 with adcode=320100
+## 32.9. filtered districts: 11
+
+## 32.10. getting district for city: 无锡市 320200
+status code :200	found districts: 98 with adcode=320200
+## 32.10. filtered districts: 8
+
+## 32.11. getting district for city: 南通市 320600
+status code :200	found districts: 98 with adcode=320600
+## 32.11. filtered districts: 8
+
+## 32.12. getting district for city: 扬州市 321000
+status code :200	found districts: 98 with adcode=321000
+## 32.12. filtered districts: 6
+
+## 32.13. getting district for city: 常州市 320400
+status code :200	found districts: 98 with adcode=320400
+## 32.13. filtered districts: 6
+
+# 33. getting cities for province: 北京市 110000
+status code :200	found cities: 1 with adcode=110000
+
+## 33.1. getting district for city: 北京市市辖区 110100
+status code :200	found districts: 16 with adcode=110100
+## 33.1. filtered districts: 16
+
+# 34. getting cities for province: 香港特別行政區 810000
+status code :200	found cities: 0 with adcode=810000
+
+Process finished with exit code 0

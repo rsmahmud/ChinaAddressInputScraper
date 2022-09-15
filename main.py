@@ -18,7 +18,7 @@ def get_district_list(adcode):
         district_list = []
     else:
         district_list = [r['name'] for r in district_list]
-    print(f"status code :{res.status_code}\tfound districts: {len(district_list)}")
+    print(f"status code :{res.status_code}\tfound districts: {len(district_list)} with adcode={adcode}")
     return district_list
 
 
@@ -29,7 +29,7 @@ def get_city_list(adcode):
     except Exception as e:
         print(f"Error getting city list:\nError: {e}\nData: {res.content}")
         city_list = []
-    print(f"status code :{res.status_code}\tfound cities: {len(city_list)}")
+    print(f"status code :{res.status_code}\tfound cities: {len(city_list)} with adcode={adcode}")
     return city_list
 
 
@@ -47,7 +47,10 @@ def get_data_set():
             print(f"## {i+1}.{j+1}. getting district for city: {city['name']} {city['adcode']}")
             DATA_SET[province['name']][city['name']] = get_district_list(city['adcode'])
 
-    json.dump(DATA_SET, open('china_address_input_data_set.json', 'w'), indent=4)
+    # json.dump(list(DATA_SET.keys()), open('china_address_input_provinces.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
+    # json.dump(DATA_SET, open('china_address_input_provinces_with_cities.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
+    json.dump(DATA_SET, open('china_address_input_data_set.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
+
 
 
 if __name__ == '__main__':

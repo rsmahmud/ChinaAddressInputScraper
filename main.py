@@ -57,6 +57,5 @@ def get_data_set():
     json.dump(DATA_SET, open('china_address_input_data_set.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
 
 
-
 if __name__ == '__main__':
     get_data_set()
